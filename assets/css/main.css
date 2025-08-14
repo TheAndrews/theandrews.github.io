@@ -21,7 +21,7 @@
 :root {
   --color-default: #fafafa;
   --color-primary: #27a776;
-  --color-secondary: #161718;
+  --color-secondary: #343a41;
 }
 
 /* Smooth scroll behavior */
@@ -35,7 +35,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #000;
+  background-color: #343a41;
 }
 
 a {
@@ -324,15 +324,16 @@ h6 {
 
 .header .header-social-links {
   padding-right: 15px;
+    font-size: 26px;
 }
 
 .header .header-social-links a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #0b66c2;
   padding-left: 15px;
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 .header .header-social-links a:hover {
@@ -1176,7 +1177,7 @@ h6 {
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: #000;
+  background: #343a41;
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
